@@ -1,4 +1,5 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+import TodoList  from "./todo/TodoList.vue";
 
-createApp(App).mount("#app");
+createApp(TodoList).mount("#app");
