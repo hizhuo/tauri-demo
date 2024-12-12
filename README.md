@@ -14,3 +14,5 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+#
+需求：不同操作系统的hosts文件位置不同，需要开发一个命令行工具，根据操作系统的不同自动修改hosts文件。软件将维护不同的host文件片段，通过启用或禁用片段，自动修改hosts文件。要求使软件跨平台，用tauri2/vue/typescript开发,不要用使用rust直接开发。
