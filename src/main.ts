@@ -3,6 +3,7 @@ import App from "./App.vue";
 import "./style.css";
 import TodoList  from "./todo/TodoList.vue";
 import HostsManager from "./components/HostsManager.vue";
+import TestDemo from "./components/TestDemo.vue";
 
 
-createApp(HostsManager).mount("#app");
+createApp(TestDemo).mount("#app");
